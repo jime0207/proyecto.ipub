@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-image: url(../img/fonfo1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ }
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background: linear-gradient(#f9f9f9 0%, #77A5F8);
+}
+.H1 {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    max-width: 5rem;   
+}
+
+.nav-list{
+   list-style-type: none;
+   display: flex;
+   gap: 1rem;
+}
+
+.nav-list li a{
+    text-decoration: none ;
+    color: black;
+
+}
+
+.hero__paragraph {
+    margin-bottom: 20px;
+}
+
+.cta {
+    display: inline-block;
+    background-color: #000305;
+    justify-self: center;
+    color: #f10000;
+    text-decoration: none;
+    padding: 13px 30px;
+    border-radius: 32px;
+}

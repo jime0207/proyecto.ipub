@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ }
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background: linear-gradient(#f9f9f9 0%, #77A5F8);
+}
+.H1 {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    max-width: 7rem;   
+}
+
+.nav-list{
+   list-style-type: none;
+   display: flex;
+   gap: 1rem;
+}
+
+.nav-list li a{
+    text-decoration: none ;
+    color: black;   
+}
+
+.subtitulo{
+    font-size: 2.5rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    text-align: center;
+    padding-top: 35px;
+}
+.img{
+    margin: 100px;
+  }
+ img{
+     width: 200px;
+     height: 200px;
+     border-radius: 10px;
+     margin: 10px;
+    }
+.price{
+    text-align: center;
+}
+
+.price__table{
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.price__element{
+    background-color: #cbe1ff;
+    text-align: center;
+    border-radius: 10px;
+    width: 330px;
+    padding: 40px;
+    --color-price: #000000;
+    --bg-cta: #fffafa;
+    --color-cta: #000000;
+    --color-items: #302e2e;
+}
+
+.price__element--best{
+    width: 370px;
+    padding: 60px 40px;
+    background-color: #9ec4fe;
+    --color-plan: rgb(255 255 255 / 75%);
+    --color-price: #040404;
+    --bg-cta: #f9f9f9;
+    --color-cta: #000000;
+    --color-items: #000000;
+}
+
+
+.price__name{
+    color: var(--color-plan);
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.price__price{
+    font-size: 2rem;
+    color: var(--color-price);
+    font-family:'Courier New', Courier, monospace;
+}
+
+.price__items{
+    margin-top: 35px;
+    display: grid;
+    gap: 1em;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    color: var(--color-items);
+}
+
+.price__cta{
+    display: block;
+    padding: 20px 0;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: var(--bg-cta);
+    font-weight: 600;
+    color: var(--color-cta);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
